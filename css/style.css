@@ -13,10 +13,26 @@ body {
 }
 
 .socialmedia {
+  padding: 1.5rem;
   background-color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .socialmedia--instagram {
   width: 568px;
   height: 568px;
+}
+
+.socialmedia__img-wrap,
+img {
+  margin: auto;
+  width: 100%;
+}
+
+.socialmedia__img-wrap {
+}
+
+img {
+  border-radius: 1.5rem;
 }
