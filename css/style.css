@@ -34,7 +34,6 @@ body {
 .socialmedia__img-wrap::after,
 .socialmedia__img {
   border-radius: 1.5rem;
-  box-shadow: 0 2px 2.8rem 0 rgb(0 0 0 / 25%);
 }
 
 .socialmedia__img-wrap {
@@ -56,6 +55,10 @@ body {
   border: none;
   position: relative;
   z-index: -10;
+}
+
+.socialmedia__img {
+  box-shadow: 0 2px 2.8rem 0 rgb(0 0 0 / 25%);
 }
 
 .socialmedia__handler-signature {
