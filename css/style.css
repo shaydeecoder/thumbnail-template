@@ -44,13 +44,13 @@ body {
 
 .socialmedia__img-wrap::after {
   content: "";
-  margin: -7rem auto 0 auto;
+  margin: -6rem auto 0 auto;
   display: block;
   width: 80%;
   height: 8.5rem;
   background: url("../img/thumbnail-img.png");
   background-size: contain;
-  box-shadow: 0 0 8px 8px white inset;
+  box-shadow: 0 0 18px 18px white inset;
   filter: blur(2px);
   -webkit-filter: blur(2px);
   border: none;
@@ -66,8 +66,10 @@ body {
 .handler-signature__info {
   padding-left: 0.5rem;
   border-left: 0.5rem solid #000;
+  font-size: 0.8rem;
 }
 
 .info__preferred-name {
   text-transform: capitalize;
+  font-size: 0.9rem;
 }
