@@ -26,13 +26,36 @@ body {
 }
 
 .socialmedia__img-wrap,
-img {
+.socialmedia__img {
   margin: auto;
   width: 100%;
 }
 
-img {
+.socialmedia__img-wrap::after,
+.socialmedia__img {
   border-radius: 1.5rem;
+  box-shadow: 0 2px 2.8rem 0 rgb(0 0 0 / 30%);
+}
+
+.socialmedia__img-wrap {
+  position: relative;
+  z-index: 10;
+}
+
+.socialmedia__img-wrap::after {
+  content: "";
+  margin: -7rem auto 0 auto;
+  display: block;
+  width: 60%;
+  height: 8.5rem;
+  background: url("../img/thumbnail-img.png");
+  background-size: contain;
+  box-shadow: 0 0 8px 8px white inset;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  border: none;
+  position: relative;
+  z-index: -10;
 }
 
 .socialmedia__handler-signature {
