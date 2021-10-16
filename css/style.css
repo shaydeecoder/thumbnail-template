@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .socialmedia--instagram {
@@ -30,9 +31,20 @@ img {
   width: 100%;
 }
 
-.socialmedia__img-wrap {
-}
-
 img {
   border-radius: 1.5rem;
+}
+
+.socialmedia__handler-signature {
+  position: absolute;
+  bottom: 1.5rem;
+}
+
+.handler-signature__info {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #000;
+}
+
+.info__preferred-name {
+  text-transform: capitalize;
 }
